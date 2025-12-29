@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhance Form</title>
+</head>
+<body>
+    <section>
+        <dl>
+            <dt>Form Name</dt>
+            <dd>Enhanced Form</dd>
+            <dt>Description</dt>
+            <dd>This form collect data from user including name,email and age</dd>
+            <dt>Fields</dt>
+            <dd>
+                <ul>
+                    <li>Name: A required text field.</li>
+                    <li>Email: A required email field.</li>
+                    <li>Age: An optional number field with a range from 0 to 120.</li>
+                </ul>
+            </dd>
+        </dl>
+    </section>
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Field</th>
+                    <th>Type</th>
+                    <th>Required</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Name</td>
+                    <td>Text</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>Email</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td>Number</td>
+                    <td>NO</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <video src="../../Documents/Advanced Linux Server Management Guide - Security, Monitoring, and Configuration (Vol. 3).mp4" controls>
+            Your browser does not support this video tag
+        </video>
+    </section>
+        <h1>Enhance Form</h1>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+            <br />
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <br />
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age">
+        </form>
+    
+</body>
+</html>
